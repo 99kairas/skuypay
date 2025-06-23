@@ -8,6 +8,7 @@ Color redColor = const Color(0xffD13217);
 Color yellowColor = const Color(0xffFDE7AA);
 Color blueColor = const Color(0xff27AAE1);
 Color greyColor = const Color(0xff8E8B8B);
+Color subtitleColor = const Color(0xff111111);
 
 TextStyle primaryTextStyle = TextStyle(
   color: primaryColor,
@@ -39,6 +40,10 @@ TextStyle blueTextStyle = TextStyle(
 );
 TextStyle greyTextStyle = TextStyle(
   color: greyColor,
+  fontFamily: 'Roboto',
+);
+TextStyle subtitleTextStyle = TextStyle(
+  color: subtitleColor,
   fontFamily: 'Roboto',
 );
 
